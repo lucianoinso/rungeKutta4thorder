@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 
-# Equation (modify)
+# Equation
 def f(x, y):
-    return (x*x*y)
+    return (3*x*x*y)
 
 def t4(x, y, h):
     k1 = f(x, y)
