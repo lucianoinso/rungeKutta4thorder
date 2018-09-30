@@ -6,15 +6,17 @@ https://mybinder.org/v2/gh/lucianoinso/rungeKutta4thorder/master
 
 Wait until it's fully loaded then click on "rungeKutta.ipynb" file
 
+Run Offline
+============
+
 Prerequisites
-=============
-it requires you to install matplotlib for python, that can be done with the next instruction (Ubuntu):
+-------------
+it requires you to install matplotlib for python, that can be done with the next command (Ubuntu):
 ```console
 sudo apt install python3-matplotlib
 ```
-
 Running
-=======
+-------
 ```console
 python3 rungeKutta.py
 ```
