@@ -17,7 +17,7 @@ def rungeKutta(x0, y0, h, iter):
     x = x0
     y = y0
 
-    for i in range(1, iter):
+    for i in range(0, iter):
         yn = y + (h * t4(x, y, h))
         x = x + h
         y = yn
