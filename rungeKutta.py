@@ -25,8 +25,8 @@ def rungeKutta(x0, y0, h, iter):
     return result
 
 if __name__ == '__main__':
-    x0 = 0
-    y0 = 1
+    x0 = 1
+    y0 = 2
     h = 0.1
     iters = 100
     result = rungeKutta(x0, y0, h, iters)
